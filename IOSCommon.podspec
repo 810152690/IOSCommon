@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'IOSCommon/IOSCommon/Pod/**'
+  s.source_files = 'IOSCommon/IOSCommon/Pod/*.{h,m}'
   
   # s.resource_bundles = {
   #   'IOSCommon' => ['IOSCommon/Assets/*.png']
